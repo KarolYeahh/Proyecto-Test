@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="IMAGES/js-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <title>Test | JavaScript</title>
+</head>
+<body>
+    <script src="JS/script.js"></script>
+
+    <div id="conteiner">
+
+        <!-- HEADER -->
+        <div id="Encabezado"></div>
+        <section>
+            <!-- <div id="Resultado"></div> -->
+            <br>
+            <form name="Quiz" onsubmit="return verificarRespuestas()">
+                <h4 id="Title">Test</h4>
+                <div class="Preguntas">
+                    <h3 class="Titulo">¿Pregunta 1?</h3>
+                    <input type="radio" name="p1" value="a"> a.- Respuesta 1 <br/>
+                    <input type="radio" name="p1" value="b"> b.- Respuesta 2 <br/>
+                    <input type="radio" name="p1" value="c"> c.- Respuesta 3 <br/>
+                    <input type="radio" name="p1" value="d"> d.- Respuesta 4 <br/>
+                </div>
+
+                <div class="Preguntas">
+                    <h3 class="Titulo">¿Pregunta 2?</h3>
+                    <input type="radio" name="p2" value="a"> a.- Respuesta 1 <br/>
+                    <input type="radio" name="p2" value="b"> b.- Respuesta 2 <br/>
+                    <input type="radio" name="p2" value="c"> c.- Respuesta 3 <br/>
+                    <input type="radio" name="p2" value="d"> d.- Respuesta 4 <br/>
+                </div>
+
+                <div class="Preguntas">
+                    <h3 class="Titulo">¿Pregunta 3?</h3>
+                    <input type="radio" name="p3" value="a"> a.- Respuesta 1 <br/>
+                    <input type="radio" name="p3" value="b"> b.- Respuesta 2 <br/>
+                    <input type="radio" name="p3" value="c"> c.- Respuesta 3 <br/>
+                    <input type="radio" name="p3" value="d"> d.- Respuesta 4 <br/>
+                </div>
+                
+
+                <div class="Preguntas">
+                    <h3 class="Titulo">¿Pregunta 4?</h3>
+                    <input type="radio" name="p4" value="a"> a.- Respuesta 1 <br/>
+                    <input type="radio" name="p4" value="b"> b.- Respuesta 2 <br/>
+                    <input type="radio" name="p4" value="c"> c.- Respuesta 3 <br/>
+                    <input type="radio" name="p4" value="d"> d.- Respuesta 4 <br/>
+                </div>
+
+                <div class="Preguntas">
+                    <h3 class="Titulo">¿Pregunta 5?</h3>
+                    <input type="radio" name="p5" value="a"> a.- Respuesta 1 <br/>
+                    <input type="radio" name="p5" value="b"> b.- Respuesta 2 <br/>
+                    <input type="radio" name="p5" value="c"> c.- Respuesta 3 <br/>
+                    <input type="radio" name="p5" value="d"> d.- Respuesta 4 <br/>
+                </div>
+
+                <div class="Preguntas">
+                    <h3 class="Titulo">¿Pregunta 6?</h3>
+                    <input type="radio" name="p6" value="a"> a.- Respuesta 1 <br/>
+                    <input type="radio" name="p6" value="b"> b.- Respuesta 2 <br/>
+                    <input type="radio" name="p6" value="c"> c.- Respuesta 3 <br/>
+                    <input type="radio" name="p6" value="d"> d.- Respuesta 4 <br/>
+                </div>
+
+                <div class="Preguntas">
+                    <h3 class="Titulo">¿Pregunta 7?</h3>
+                    <input type="radio" name="p7" value="a"> a.- Respuesta 1 <br/>
+                    <input type="radio" name="p7" value="b"> b.- Respuesta 2 <br/>
+                    <input type="radio" name="p7" value="c"> c.- Respuesta 3 <br/>
+                    <input type="radio" name="p7" value="d"> d.- Respuesta 4 <br/>
+                </div>
+
+                <div class="Preguntas">
+                    <h3 class="Titulo">¿Pregunta 8?</h3>
+                    <input type="radio" name="p8" value="a"> a.- Respuesta 1 <br/>
+                    <input type="radio" name="p8" value="b"> b.- Respuesta 2 <br/>
+                    <input type="radio" name="p8" value="c"> c.- Respuesta 3 <br/>
+                    <input type="radio" name="p8" value="d"> d.- Respuesta 4 <br/>
+                </div>
+
+                <div class="Preguntas">
+                    <h3 class="Titulo">¿Pregunta 9?</h3>
+                    <input type="radio" name="p9" value="a"> a.- Respuesta 1 <br/>
+                    <input type="radio" name="p9" value="b"> b.- Respuesta 2 <br/>
+                    <input type="radio" name="p9" value="c"> c.- Respuesta 3 <br/>
+                    <input type="radio" name="p9" value="d"> d.- Respuesta 4 <br/>
+                </div>
+
+                <div class="Preguntas">
+                    <h3 class="Titulo">¿Pregunta 10?</h3>
+                    <input type="radio" name="p10" value="a"> a.- Respuesta 1 <br/>
+                    <input type="radio" name="p10" value="b"> b.- Respuesta 2 <br/>
+                    <input type="radio" name="p10" value="c"> c.- Respuesta 3 <br/>
+                    <input type="radio" name="p10" value="d"> d.- Respuesta 4 <br/>
+                </div>
+                <br>
+                    <button type="submit" value="Enviar">Enviar</button>
+                <br>
+            </form>
+            <div id="Resultado"></div>
+
+        </section>
+    </div>
+    <script src="JS/test.js"></script>
+
+    <hr>
+    <br>
+    <footer>
+        Test elaborado por:
+        <br>
+        Karol Jozef Corona Cisneros
+    </footer>
+</body>
+</html>

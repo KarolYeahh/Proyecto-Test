@@ -1,0 +1,128 @@
+body{
+    background-color: #DFAFE7;
+}
+
+header{
+    /* PARA QUE QUEDE FIJO */
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+    /* DISEÑO (TIPO DE LETRA, COLOR, SOMBRA, ETC.)*/
+    padding: 0 5%;
+    height: 70px;
+    width: 100%;
+    transition: 0.5s;
+    background-color: #7070CB;
+    color: #FFF;
+    margin: 0 auto;
+    text-align: right;
+    font: italic bold 25px Georgia, Serif;
+    text-shadow: -2px 1px 0 #B3A059, -6px 3px 0 #0A0E27;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+/* ESCOJER OPCIONES */
+.main-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+/* OPCIONES DE MENU */
+.menu-item{
+    margin: 0 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #f2f2f2;
+}
+.menu-item:hover{
+    color: var(--main-color);
+}
+.menu-item a{
+    color: white;
+    text-decoration: none;
+}
+.menu-item a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+footer{
+    background-color: #7070CB;
+    color: #FFF;
+    margin: 0 auto;
+    text-align: center;
+    font: italic bold 25px Georgia, Serif;
+    text-shadow: -2px 1px 0 #B3A059, -6px 3px 0 #0A0E27;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+form{
+    padding: 15px;
+    background-color: #7070CB;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 12px 12px black;
+    margin-bottom: 30px;
+}
+
+/* SON LAS PREGUNTAS*/
+.Titulo{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* ES EL TITULO DEL FORMULARIO */
+#Title{
+    background-color: #7070CB;
+    color: #FFF;
+    text-align: center;
+    font: italic bold 25px Georgia, Serif;
+    text-shadow: -2px 1px 0 #B3A059, -6px 3px 0 #0A0E27;
+    font-family: 'Anek Tamil', sans-serif;
+}
+
+/* BOTON PARA ENVIAR LAS RESPUESTAS */
+button{
+    width: 100%;
+    background: #AD4BC1;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 12px 0;
+    font-size: 16px;
+    border-radius: 25px;
+}
+button:hover{
+    background-color: #BEAFE7;
+}
+/* PARA SEPARAR CADA PREGUNTA */
+.Preguntas{
+    background-color: #FFF;
+    margin: 15px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    border-color: black;
+}
+
+/* MOSTRAR RESULTADO */
+#Resultado h3{
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 10px 0;
+}
+#Resultado span{
+    color: #000;
+    font-weight: bold;
+}
